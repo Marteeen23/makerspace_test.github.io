@@ -301,7 +301,6 @@ p{
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
 .hero::after {
     content: "";
     width: 100%;
@@ -534,4 +533,9 @@ align-items: center;
 	.counters .container > div:nth-of-type(2) {
 		padding-bottom: 20px;
 	}
+}
+@media screen and (max-width: 767px){
+p{
+font-size: 4vmin;
+}
 }
