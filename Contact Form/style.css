@@ -33,7 +33,7 @@ h6 {
 h1{
   font-weight: bolder;
   margin: 0;
-  color: #020D5F;
+  color: #212529;
 }
 
 select {
@@ -83,7 +83,7 @@ a:hover {
 }
 .form-control{
   border: 1px #fff;
-  border-bottom: 1px solid #020D5F;
+  border-bottom: 1px solid #212529;
 
 }
 .form-control:focus {
@@ -125,7 +125,7 @@ a:hover {
     height: 25px;
     width: 25px;
     background-color: #fff;
-    border: 1px solid #020D5F;
+    border: 1px solid #212529;
     border-radius: 50%
 }
 
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .option input[type="radio"]:checked~.checkmark {
-    background: #020D5F;
+    background: #212529;
     transition: 300ms ease-in-out 0s
 }
 
@@ -161,7 +161,7 @@ a:hover {
 }
 
 .option input[type="checkbox"]:checked~.checkmark {
-    background: #020D5F;
+    background: #212529;
     transition: 300ms ease-in-out 0s
 }
 
@@ -172,19 +172,46 @@ a:hover {
 .option input[type="checkbox"]:checked+.options {
     background-color: red
 }
+
+.buttons{
+
+}
+
 .btnSubmit {
   width: 40% !important;
   border-radius: 1rem;
   padding: 1.5%;
+  margin-bottom: 1rem;
   color: #fff;
-  background-color: #020D5F;
+  background-color: #212529;
+  border: none;
+  cursor: pointer;
+  margin-right: 6%;
+  color: rgb(246, 246, 252);
+  margin-top: 4%;
+  transition: 0.5s ease-in;
+}
+
+.btnSubmit:hover{
+  background-color:#21bf73;
+}
+
+.btnReset {
+  width: 40% !important;
+  border-radius: 1rem;
+  padding: 1.5%;
+    margin-bottom: 1rem;
+  color: #fff;
+  background-color: #212529;
   border: none;
   cursor: pointer;
   margin-right: 6%;
   color: rgb(246, 246, 252);
   margin-top: 4%;
 }
-
+.btnReset:hover{
+  background-color: rgba(0,0,0,0.5);
+}
 .btn-block{
   margin-left: 30% !important;
 }
@@ -201,50 +228,10 @@ a:hover {
     padding-left: 25px
 }
 
-.btn {
-    background: #fff;
-    color: #21bf73;
-    border: 1px solid #21bf73;
-    width: 85%;
-    padding: 12px
-}
-
-.btn:hover {
-    background-color: #21bf73;
-    color: #fff
-}
 
 @media(min-width:768px) and (max-width:991px) {
     .option {
         padding-left: 30px
-    }
-}
-
-@media(min-width:576px)and (max-width:767px) {
-    .income {
-        width: 50%
-    }
-
-    #or {
-        display: block;
-        padding: 10px;
-        text-align: center
-    }
-
-    .btn {
-        width: 100%
-    }
-
-    .col {
-        width: 15%
-    }
-
-    .day .option {
-        padding-left: 30px
-    }
-
-    .day {
-        padding-right: 10px
     }
 }
 
@@ -259,9 +246,6 @@ a:hover {
         text-align: center
     }
 
-    .btn {
-        width: 100%
-    }
 
     .day .option .checkmark {
         width: 20px;
