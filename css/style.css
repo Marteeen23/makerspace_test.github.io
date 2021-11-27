@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 
 /*
 
@@ -25,20 +26,19 @@ body {
     line-height: 1.7;
 }
 
-
 .points{
   padding-top: 1%;
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @keyframes showTopText {
   0% {
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 150%, 0);
   }
   40%, 60% {
     transform: translate3d(0, 50%, 0);
   }
   100% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, -13%, 0);
   }
 }
 @keyframes showBottomText {
@@ -52,7 +52,7 @@ body {
 .animated-title {
   color: #222;
   font-family: Roboto, Arial, sans-serif;
-  height: 30vmin;
+  height: 40vmin;
   left: 50%;
   position: absolute;
   top: 25%;
@@ -73,10 +73,10 @@ body {
   text-align: center;
 }
 
-.animated-title > div.text-top {
+/* .animated-title > div.text-top {
   border-bottom: 1vmin solid #212529;
   top: 0;
-}
+} */
 
 .animated-title > div.text-top div {
   animation: showTopText 1s;
@@ -97,11 +97,16 @@ body {
   top: 0;
   transform: translate(0, -100%);
 }
-h1,h2,h3,h4,h5,h6,
+
 .display-4 {
     color: var(--dark);
-    font-weight: 700;
+    font-size: 8vmin !important;
 }
+
+.font-new{
+  font-family: 'Comforter', cursive !important;
+}
+
 .pos{
   position: relative;
 }
@@ -112,13 +117,13 @@ a {
 .play-btn {
     width: 100px;
     height: 100px;
-    background: radial-gradient(#4CAF50 50%, rgba(76, 175, 80, 0.5) 50%);
+    background: radial-gradient(#ffa812 50%, #F8F0E3 50%);
     display: block;
     transform: rotate(45deg);
     margin: 100px auto;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 10px 3px #dcdcdc;
+    /* box-shadow: 0px 0px 10px 3px #dcdcdc; */
     border-radius: 30px;
 }
 .play-btn::after {
@@ -153,11 +158,11 @@ a {
     -webkit-animation-timing-function: steps;
     animation-timing-function: steps;
     opacity: 1;
-    border: 5px solid #ffffff;
+    border: 5px solid #00b7eb;
     border-radius: 30px;
 }
 .play-btn:hover::after {
-    border-left: 15px solid #4CAF50;
+    border-left: 15px solid #ffcc99;
     transform: scale(20);
 }
 .play-btn:hover::before {
@@ -170,7 +175,7 @@ a {
     border: none;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #00b7eb;
     z-index: 200;
     -webkit-animation: none;
     animation: none;
@@ -198,6 +203,8 @@ a {
         opacity: 0;
     }
 }
+
+
 .arrow-container {
   width: 25px;
   /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
@@ -235,7 +242,7 @@ a {
 }
 
 .navbar {
-  background-color: #24262b !important;
+  background-color: #ff9f00 !important;
     box-shadow: var(--box-shadow);
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
@@ -249,7 +256,7 @@ a {
 .logo {
     width: 100%;
     height: auto;
-    max-width: 160px;
+    max-width: 170px;
 }
 
 .navbar .nav-link {
@@ -288,7 +295,9 @@ navbar-btn{
   background: transparent;
 }
 .hero {
-    background-image: url(../img/ParchedWateryKillerwhale_1.gif);
+background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575e6, #021b79); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575e6, #021b79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -308,7 +317,7 @@ p{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
+    /* background-color: rgba(21, 20, 51, 0.8); */
     z-index: -1;
 }
 
@@ -342,7 +351,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: #ff9f00;
     padding: 70px 0;
 }
 .footer-col{
@@ -376,12 +385,11 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: #888;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -534,8 +542,13 @@ align-items: center;
 		padding-bottom: 20px;
 	}
 }
-@media screen and (max-width: 767px){
-p{
-font-size: 4vmin;
+.font-new{
+  font-size: 5vmin !important;
 }
+@media screen and (max-width: 767px){
+
+.font-new{
+  font-size: 5vmin !important;
+}
+
 }
