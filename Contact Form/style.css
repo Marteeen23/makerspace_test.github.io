@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #F8F0E3;
     font-family: 'Poppins', sans-serif
 }
 
@@ -82,7 +82,7 @@ a:hover {
     width: 50%
 }
 .form-control{
-  border: 1px #fff;
+  border: 1px #F8F0E3;
   border-bottom: 1px solid #212529;
 
 }
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .bg-light{
-  background-color: #fff !important;
+  background-color: #F8F0E3 !important;
 }
 
 .options {
@@ -124,7 +124,7 @@ a:hover {
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #fff;
+    background-color: #F8F0E3;
     border: 1px solid #212529;
     border-radius: 50%
 }
@@ -138,7 +138,7 @@ a:hover {
     width: 10px;
     height: 10px;
     display: block;
-    background: white;
+    background: #F8F0E3;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -182,7 +182,7 @@ a:hover {
   border-radius: 1rem;
   padding: 1.5%;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #F8F0E3;
   background-color: #212529;
   border: none;
   cursor: pointer;
@@ -201,7 +201,7 @@ a:hover {
   border-radius: 1rem;
   padding: 1.5%;
     margin-bottom: 1rem;
-  color: #fff;
+  color: #F8F0E3;
   background-color: #212529;
   border: none;
   cursor: pointer;

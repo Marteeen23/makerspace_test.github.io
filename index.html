@@ -21,6 +21,7 @@
 
 
   <title>Makerspace</title>
+  <link rel="shortcut icon" type="image/jpg" href="img/gearHiRes.png"/>
 </head>
 
 <body>
@@ -49,7 +50,7 @@
             <a class="nav-link" href="#rules">Rules</a>
           </li>
         </ul>
-        <button class="conbtn btn btn-primary ms-lg-3 navbar-btn" onclick="location.href='Contact Form/form.html';">Have an Idea?</button>
+        <button class="conbtn btn btn-primary ms-lg-3 navbar-btn" onclick="window.open('Contact Form/form.html');">Have an Idea?</button>
       </div>
     </div>
   </nav><!-- //NAVBAR -->
@@ -100,12 +101,12 @@
           <div class="container">
             <div>
               <i class="fas fa-users fa-2x"></i>
-              <div class="counter" data-target="20">0</div>
-              <h3>Team Members</h3>
+              <div class="counter" data-target="60">0</div>
+              <h3>Project Members</h3>
             </div>
             <div>
-              <i class="far fa-clock fa-2x"></i>
-              <div class="counter" data-target="120">0</div>
+              <i class="fas fa-clock fa-2x"></i>
+              <div class="counter" data-target="500">0</div>
               <h3>Hours of work</h3>
             </div>
             <div>
@@ -201,15 +202,17 @@
     <div class="container">
       <div class="row">
         <div class="footer-col">
-          <h4>Makerspace</h4>
+        <a href="./index.html"><h4>Makerspace</h4></a>
           <ul>
             <li><a href="#about">about us</a></li>
-            <li><a href="#projects">projects</a></li>
+            <li><a href="Fields/CV.html">computer vision</a></li>
+            <li><a href="Fields/Auto.html">autonomous robotics</a></li>
+            <li><a href="Fields/IOT.html">IoT</a></li>
             <li><a href="#rules">rules and regulations</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <button class="conbtn btn btn-primary ms-lg-3 navbar-btn centering" onclick="location.href='Contact Form/form.html';">Have an Idea?</button>
+          <button class="conbtn btn btn-primary ms-lg-3 navbar-btn centering" onclick="window.open('Contact Form/form.html');">Have an Idea?</button>
         </div>
         <div class="footer-col">
           <h4>follow us</h4>
@@ -218,7 +221,7 @@
             <a href="https://twitter.com/robotixiitkgp"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/robotix_iitkgp/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/company/technology-robotix-society/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://robotix.typeform.com/to/USirXsoq?typeform-source=makerspace.robotix.in"><i class="fas fa-envelope"></i></a>
+            <a href="https://robotix.typeform.com/to/USirXsoq?typeform-source=makerspace.robotix.in"><i class="far fa-envelope"></i></a>
           </div>
         </div>
       </div>
@@ -261,7 +264,7 @@
   </script>
   <script>
     const counters = document.querySelectorAll('.counter');
-    const speed = 20000; // The lower the slower
+    const speed = 2000; // The lower the slower
 
     counters.forEach(counter => {
       const updateCount = () => {

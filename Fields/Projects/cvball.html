@@ -1,0 +1,160 @@
+<!DOCTYPE>
+<html>
+  <head>
+      <style>
+          .leftright{
+              background-color: #5f81f0;
+          }
+          .rightleft{
+              background-color: #5f81f0;
+          }
+      </style>
+    <title>CV Based Ball Balancing</title>
+    <link rel="shortcut icon" type="image/jpg" href="../../img/gearHiRes.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div style="position: fixed; z-index: 100;">
+    <nav class="navbar">
+    <a href="../CV.html">
+    <div class="close-container">
+    <div class="leftright"></div>
+    <div class="rightleft"></div>
+    </div>
+    </a>
+  </nav>
+  </div>
+    <div class="hero-container">
+      <div class="hero" style="background:url('img/cvball.jpg') no-repeat; background-size:cover;"></div>
+      <div class="hero-stuff">
+          <h1 style="font-size: 70px;">CV Based Ball Balancing</h1>
+      </div>
+      <div class="arrow-pos"><a href="#info">
+          <div class="arrow-container">
+            <div class="arrow-down"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="info" class="info-div"><p>About The Project<p></div>
+
+    <article>
+
+    <div class="image"><img src="img/idea_14.jpg">
+    </div>
+    <div class="text">This project was focused on understanding the control systems applications. It basically uses Computer Vision for locating the ball on the platform and then using the feedback mechanism, i.e, PID Controller in our case, automatically generates the tilt of the surface for balancing the ball on the platform. The servo motors are initially at an angle of 90 degrees and they turn by the angles that is given as an output of the PID Controller. All this is integrated on the Arduino UNO Microcontroller. All the communication between Arduino and the Python Code for OpenCV and controller is handled by Pyserial library.
+    </div>
+    <div class="image"><img src="img/idea_15.jpg">
+    </div>
+    <div class="text">In many ways, the project exceeded our expectations by being able to tilt the platform fast enough to balance the ball on it. Later on, we found out that the 4 servo motors were a very high load for Arduino.If this project were to be redone, there would be a few things not done the same way as with most first-time projects; but overall, the project was considered to be a success.
+
+        Interested people can have a look at the complete documentation of the project <a href="https://drive.google.com/file/d/1hPG_EIUyXh63I8hhvSnfY28OY_8VpfeS/view">here</a>
+    </div>
+
+    </article>
+    <br><br>
+    <div style="background-color: #e3e8f8;">
+  <div class="info-div"><p>Meet The Team<p></div>
+    <div class="teamcards">
+    <div class ="mentees">
+      <div class="team">
+      <div class="blog-card">
+      <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <ul class="details">
+      <li class="author"><a href="#">Ayush</a></li>
+      </ul>
+      </div>
+      <div class="description">
+      <h1>Ayush Deep</h1>
+      <h2>Mentee</h2>
+      <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+      </div>
+      </div>
+      <div class="blog-card alt">
+      <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+      <ul class="details">
+      <li class="author"><a href="#">Aryan</a></li>
+      </ul>
+      </div>
+      <div class="description">
+      <h1>Aryan Satpathy</h1>
+      <h2>Mentee</h2>
+      <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+      </div>
+      </div>
+      </div>
+        <div class="blog-card">
+        <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+        <li class="author"><a href="#">Pranjal</a></li>
+        </ul>
+        </div>
+        <div class="description">
+        <h1>Kumar Pranjal Tripathi</h1>
+        <h2>Mentee</h2>
+        <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+        </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <ul class="details">
+          <li class="author"><a href="#">Joshua</a></li>
+          </ul>
+          </div>
+          <div class="description">
+          <h1>Rishan Joshua Dsilva</h1>
+          <h2>Mentee</h2>
+          <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+          </div>
+          </div>
+
+          </div>
+    <div class="mentors">
+      <div class="team">
+        <div class="blog-card">
+        <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+        <li class="author"><a href="#">Kolla</a></li>
+        </ul>
+        </div>
+        <div class="description">
+        <h1>Kolla Ananta Raj</h1>
+        <h2>Mentor</h2>
+        <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+        </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <ul class="details">
+          <li class="author"><a href="#">Niranjana</a></li>
+          </ul>
+          </div>
+          <div class="description">
+          <h1>Niranjana Madathil</h1>
+          <h2>Mentor</h2>
+          <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+          </div>
+          </div>
+          </div>
+          </div>
+    </div>
+    </div>
+
+  </body>
+</html>

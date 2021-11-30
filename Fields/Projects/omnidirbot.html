@@ -1,0 +1,179 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <style>
+      .leftright{
+        background-color: #88a001;
+      }
+      .rightleft{
+        background-color: #88a001;
+      }
+    </style>
+    <title>Omni Directional Bot</title>
+      <link rel="shortcut icon" type="image/jpg" href="../../img/gearHiRes.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div style="position: fixed; z-index: 100;">
+    <nav class="navbar">
+    <a href="../Auto.html">
+    <div class="close-container">
+    <div class="leftright"></div>
+    <div class="rightleft"></div>
+    </div>
+    </a>
+  </nav>
+  </div>
+    <div class="hero-container">
+      <div class="hero" style="background:url('img/omnidirbot.png') no-repeat; background-size:fill; background-position: center;"></div>
+      <div class="hero-stuff">
+          <h1 style="font-size: 70px;">Omni Directional Bot</h1>
+      </div>
+      <div class="arrow-pos"><a href="#info">
+          <div class="arrow-container">
+            <div class="arrow-down"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div id="info" class="info-div"><p>About The Project<p></div>
+
+    <article>
+
+    <div class="image"><img src="img/idea_16.jpeg">
+    </div>
+    <div class="text">The aim of this project is to assemble and program a motion controlled omni-directional bot. Omni-directional robots are capable of driving in any direction in a 2D plane without the need for a steering mechanism. It’s application lies in tight workspaces like factories and hospitals. Our model is a made using omni-wheels capable of moving in eight directions, rotation about its axis and following a target using Computer Vision while maintaining camera orientation at all times. The omni-wheels are controlled by the motors drivers connected to the WiFi module, Raspberry Pi, which is capable of independently processing all the input data independently.
+    </div>
+    <div class="image"><img src="img/idea_17.jpeg">
+    </div>
+    <div class="text">Scope of improvement in our project occurs in the following sections:
+        <ul>
+            <li>Implementation of closed loop PID control to increase accuracy of bot movement</li>
+            <li>Improving upon movement detection techniques with higher FPS.</li>
+        </ul>
+
+
+        Learn more about the project <a href="https://drive.google.com/drive/folders/1-0I67bqPlFEsKrrb9YbccleHyZcI74eM">here</a>.
+    </div>
+
+    </article>
+    <br><br>
+    <div style="background-color: #e9fcb7;">
+  <div class="info-div"><p>Meet The Team<p></div>
+    <div class="teamcards">
+    <div class ="mentees">
+      <div class="team">
+      <div class="blog-card">
+      <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <ul class="details">
+      <li class="author"><a href="#">Agnibha</a></li>
+      </ul>
+      </div>
+      <div class="description">
+      <h1>Agnibha Sinha</h1>
+      <h2>Mentee</h2>
+      <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+      </div>
+      </div>
+      <div class="blog-card alt">
+      <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+      <ul class="details">
+      <li class="author"><a href="#">Akshat</a></li>
+      </ul>
+      </div>
+      <div class="description">
+      <h1>Akshat Ansh Nayak</h1>
+      <h2>Mentee</h2>
+      <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+      </div>
+      </div>
+      </div>
+      <div class="team">
+        <div class="blog-card">
+        <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+        <li class="author"><a href="#">Kirti</a></li>
+        </ul>
+        </div>
+        <div class="description">
+        <h1>Kirti Chaturvedi</h1>
+        <h2>Mentee</h2>
+        <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+        </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <ul class="details">
+          <li class="author"><a href="#">Manideep</a></li>
+          </ul>
+          </div>
+          <div class="description">
+          <h1>Manideep Sridhara</h1>
+          <h2>Mentee</h2>
+          <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+          </div>
+          </div>
+          <div class="blog-card">
+            <div class="meta">
+            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            <ul class="details">
+            <li class="author"><a href="#">Kirti</a></li>
+            </ul>
+            </div>
+            <div class="description">
+            <h1>Kirti Chaturvedi</h1>
+            <h2>Mentee</h2>
+            <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+            </div>
+            </div>
+          </div>
+    </div>
+    <div class="mentors">
+      <div class="team">
+        <div class="blog-card">
+        <div class="meta">
+        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+        <ul class="details">
+        <li class="author"><a href="#">Manav</a></li>
+        </ul>
+        </div>
+        <div class="description">
+        <h1>Manav Kapadnis</h1>
+        <h2>Mentor</h2>
+        <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
+        </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <ul class="details">
+          <li class="author"><a href="#">Sayan</a></li>
+          </ul>
+          </div>
+          <div class="description">
+          <h1>Sayan Maity</h1>
+          <h2>Mentor</h2>
+          <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
+          </div>
+          </div>
+          </div>
+          </div>
+    </div>
+    </div>
+
+  </body>
+</html>
