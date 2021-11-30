@@ -22,11 +22,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/75578d0f7f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div style="position: fixed; z-index: 100;">
     <nav class="navbar">
-    <a href="../IOT.html">
+    <a onclick="javascript:window.close()">
     <div class="close-container">
     <div class="leftright"></div>
     <div class="rightleft"></div>
@@ -35,9 +36,9 @@
   </nav>
   </div>
     <div class="hero-container">
-      <div class="hero" style="background:url('img/iot.jpg') no-repeat; background-size:cover;"></div>
+      <div class="hero" style="background:url('../../img/iot_img.jpg') no-repeat; background-size:cover;"></div>
       <div class="hero-stuff">
-          <h1 style="font-size: 70px;">IoT Based Patient Surveillance System</h1>
+          <h1>IoT Based Patient Surveillance System</h1>
       </div>
       <div class="arrow-pos"><a href="#info">
           <div class="arrow-container">
@@ -46,7 +47,7 @@
         </a>
       </div>
     </div>
-    <div id="info" class="info-div"><p>About The Project<p></div>
+    <div id="info" class="info-div"><h2>About The Project</h2></div>
 
     <article>
 
@@ -61,16 +62,62 @@
 
     </article>
     <br><br>
-    <div style="background-color: #F8F0E3;">
-  <div class="info-div"><p>Meet The Team<p></div>
-    <div class="teamcards">
-    <div class ="mentees">
+    <div>
+  <div class="info-div"><h2>Meet The Team</h2></div>
+    <div class="info-div"><p>Mentors<p></div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                 <div class="our-team">
+                     <div class="pic">
+                          <img src="../../img/arun.jpg" alt="team-member" class="img-fluid">
+                     </div>
+                     <div class="content">
+                          <h3 class="title">Arun Nair</h3>
+                         <span class="post">Computer Vision</span>
+                         <ul class="social">
+                           <li><a href="#" class="fab fa-github"></a></li>
+                           <li><a href="#" class="fab fa-facebook-f"></a></li>
+                           <li><a href="#" class="fab fa-linkedin-in"></a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="col-lg-3 col-md-4 col-sm-4">
+                 <div class="our-team">
+                     <div class="pic">
+                          <img src="../../img/madhav.jpg" alt="team-member" class="img-fluid">
+                     </div>
+                     <div class="content">
+                          <h3 class="title">Madhav Raju Nair</h3>
+                         <span class="post">Autonomous Robotics</span>
+                         <ul class="social">
+                           <li><a href="#" class="fab fa-github"></a></li>
+                           <li><a href="#" class="fab fa-facebook-f"></a></li>
+                           <li><a href="#" class="fab fa-linkedin-in"></a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+
+        </div>
+    </div>
+    <div class="info-div"><p>Mentees<p></div>
       <div class="team">
       <div class="blog-card">
       <div class="meta">
       <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
       <ul class="details">
       <li class="author"><a href="#">Aditya</a></li>
+      <li class="tags">
+        <ul>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </li>
       </ul>
       </div>
       <div class="description">
@@ -81,9 +128,16 @@
       </div>
       <div class="blog-card alt">
       <div class="meta">
-      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+      <div class="photo" style="background-image: url(../../img/Roopsa.jpg)"></div>
       <ul class="details">
       <li class="author"><a href="#">Roopsa</a></li>
+      <li class="tags">
+        <ul>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </li>
       </ul>
       </div>
       <div class="description">
@@ -99,6 +153,13 @@
         <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
         <ul class="details">
         <li class="author"><a href="#">Lokesh</a></li>
+        <li class="tags">
+          <ul>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </li>
         </ul>
         </div>
         <div class="description">
@@ -109,9 +170,16 @@
         </div>
         <div class="blog-card alt">
           <div class="meta">
-          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <div class="photo" style="background-image: url(../../img/Vinayak.jpg)"></div>
           <ul class="details">
           <li class="author"><a href="#">Vinayak</a></li>
+          <li class="tags">
+            <ul>
+              <li><a href="#"><i class="fab fa-github"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </li>
           </ul>
           </div>
           <div class="description">
@@ -120,39 +188,7 @@
           <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
           </div>
           </div>
-          </div>
-    </div>
-    <div class="mentors">
-      <div class="team">
-        <div class="blog-card">
-        <div class="meta">
-        <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-        <ul class="details">
-        <li class="author"><a href="#">Arun</a></li>
-        </ul>
         </div>
-        <div class="description">
-        <h1>Arun Nair</h1>
-        <h2>Mentor</h2>
-        <p> He was involved in the detection of the ball and getting its position on the surface. This data was sent to the PID Controller to get the required rotations of the servo motor.</p>
-        </div>
-        </div>
-        <div class="blog-card alt">
-          <div class="meta">
-          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
-          <ul class="details">
-          <li class="author"><a href="#">Madhav</a></li>
-          </ul>
-          </div>
-          <div class="description">
-          <h1>Madhav Raju Nair</h1>
-          <h2>Mentor</h2>
-          <p>He was involved in devising the formulas for the PID and according to the data received from the OpenCV code, the rotation of servo motors was done according to this PID formula.</p>
-          </div>
-          </div>
-          </div>
-          </div>
-    </div>
     </div>
 
   </body>
