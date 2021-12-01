@@ -53,11 +53,13 @@
 
     <div class="image"><img src="../../img/idea_14.jpg">
     </div>
-    <div class="text">This project aims to make monitoring of patients in a hospital less dependent on human intervention by adding sensors which can check the patient’s vitals and store them in a database. The surveillance system will be quite practical in the medical field. Automatic storage of patient’s vitals will reduce the paperwork and manual burden. The doctors can check in on the patients any time without visiting them, and this might be crucial for patients in critical condition. To set up this project we connected ECG Sensor, SpO2 sensor and temperature sensor to an Arduino and sent the data retrieved by the sensors to an online database.
+    <div class="text">This project was focused on understanding the control systems applications. It basically uses Computer Vision for locating the ball on the platform and then using the feedback mechanism, i.e, PID Controller in our case, automatically generates the tilt of the surface for balancing the ball on the platform. The servo motors are initially at an angle of 90 degrees and they turn by the angles that is given as an output of the PID Controller. All this is integrated on the Arduino UNO Microcontroller. All the communication between Arduino and the Python Code for OpenCV and controller is handled by Pyserial library.
     </div>
     <div class="image"><img src="../../img/idea_15.jpg">
     </div>
-    <div class="text">The webpage connected to the database displayed the real time data, and an alarm system using a buzzer connected to the Arduino setup. The buzzer rang when the measured data went beyond normal range. Further developments in this project include increasing the number of sensors and developing an app to display the real time data and send notifications.
+    <div class="text">In many ways, the project exceeded our expectations by being able to tilt the platform fast enough to balance the ball on it. Later on, we found out that the 4 servo motors were a very high load for Arduino.If this project were to be redone, there would be a few things not done the same way as with most first-time projects; but overall, the project was considered to be a success.
+
+Interested people can have a look at the complete documentation of the project <a href="https://drive.google.com/file/d/1hPG_EIUyXh63I8hhvSnfY28OY_8VpfeS/view?usp=sharing"> here</a>.
     </div>
 
     </article>
