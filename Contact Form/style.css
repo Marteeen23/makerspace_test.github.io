@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #F8F0E3;
+    background-color: rgb(47, 161, 226);
     font-family: 'Poppins', sans-serif
 }
 
@@ -21,7 +21,8 @@ body {
     padding: 30px;
     border-radius: 10px;
     min-height: 120px;
-    max-height: fit-content
+    max-height: fit-content;
+    background-color: #F8F0E3;
 }
 
 h5,
