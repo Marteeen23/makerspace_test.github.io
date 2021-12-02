@@ -24,7 +24,7 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         margin-top: 60px;
-        color: rgba(0, 0, 0, 0.2) !important;
+        color: #F8F0E3 !important;
         -webkit-transition: 0.7s;
         -o-transition: 0.7s;
         transition: 0.7s;
@@ -95,8 +95,8 @@
         .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
           outline: none !important; }
         .owl-carousel .owl-dots .owl-dot.active {
-          background: rgba(80,81,85,0.7);
-          border: 1px solid rgba(80,81,85,0.7); }
+          background: #2b4162;
+          border: 1px solid #2b4162; }
       @media (min-width: 992px) {
         .owl-carousel .owl-dots {
           position: absolute;
@@ -121,7 +121,7 @@
     height: 700px; }
 
   .work-wrap .text {
-    background: rgba(80,81,85,0.7); }
+    background: #F8F0E3); }
     .work-wrap .text h2 {
       font-size: 40px;
       font-weight: 800;
@@ -135,8 +135,7 @@ body {
   background-color: #F8F0E3 !important;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  color: gray; }
+  font-weight: normal; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -168,8 +167,7 @@ p{
 .img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  filter: brightness(50%);}
+  background-position: center center;}
 
   a {
       color: var(--dark);
@@ -177,7 +175,6 @@ p{
   }
 
   .navbar {
-      /* background-color: #cebfc4 !important; */
       background: #12100e;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to right,#12100e, #2b4162);  /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to right, #12100e, #2b4162); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
