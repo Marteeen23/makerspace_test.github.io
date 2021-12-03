@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Dancing+Script&family=Hind+Madurai:wght@300&family=Lato:wght@300&family=Satisfy&family=Varela&family=Yellowtail&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 :root {
   --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
@@ -46,7 +47,7 @@ body {
 }
 
 .animated-title {
-  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Comfortaa', cursive;
   height: 40vmin;
   left: 50%;
   position: absolute;
