@@ -383,9 +383,7 @@ article {
 .blog-card:hover .details {
   left: 0%;
 }
-.fab{
-  padding-right: 3px;
-}
+
 @media (min-width: 700px) {
   .blog-card {
     flex-direction: row;
